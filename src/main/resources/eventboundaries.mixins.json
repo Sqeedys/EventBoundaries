@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.sqeedys.eventboundaries.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["PacketListenerMixin", "ServerPlayerMixin", "VehicleTeleportMixin", "VehicleTeleportMixin$VehicleTransitionAccess"],
+  "injectors": {"defaultRequire": 1}
+}

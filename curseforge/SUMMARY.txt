@@ -1,0 +1,1 @@
+Temporary, invisible server-side event barriers with entry and exit locks, player passes, and timers.

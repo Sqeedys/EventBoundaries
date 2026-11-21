@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "eventboundaries",
+  "version": "0.1.0",
+  "name": "Event Boundaries",
+  "description": "Temporary server-controlled movement boundaries for staff-run events.",
+  "authors": [
+    "Sqeedys"
+  ],
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "dev.sqeedys.eventboundaries.EventBoundaries"
+    ]
+  },
+  "mixins": [
+    "eventboundaries.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "0.165.2+26.3"
+  },
+  "contact": {
+    "homepage": "https://sqeedys.com/mods",
+    "sources": "https://github.com/Sqeedys/EventBoundaries",
+    "issues": "https://github.com/Sqeedys/EventBoundaries/issues",
+    "youtube": "https://www.youtube.com/@Sqeedys"
+  },
+  "icon": "assets/eventboundaries/icon.png",
+  "license": "MIT"
+}
