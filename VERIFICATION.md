@@ -2,11 +2,15 @@
 
 Event Boundaries 0.1.0 targets Minecraft Java **26.3** with Fabric Loader **0.20.1** and Fabric API **0.165.2+26.3**. The build and dedicated tests use Java 25. The tested runtime used Eclipse Adoptium **25.0.5+8** and Loader's bundled MixinExtras **0.5.5**. The build and smoke-test scripts ran with Python **3.13.14**.
 
-Two builds produced a byte-identical `eventboundaries-0.1.0.jar`. All dedicated fixtures passed with the same installed JAR.
+Two original builds produced byte-identical copies of `eventboundaries-0.1.0.jar`. All dedicated fixtures described below passed with that JAR:
 
 ```text
 SHA-256 52346d68df2986424ba6ca8846d09cd129d35da141b439e564291eff367efdb5
 ```
+
+## Project icon refresh
+
+The [current download checksum](downloads/SHA256SUMS.txt) records the refreshed JAR’s SHA-256, `ef57be3475563ec46e03473c0250d53351acd7d63b5ba0dde2b4417765c87979`. Two builds with Temurin 25.0.5+8 and Python 3.13.14 passed the Java suite and produced byte-identical JARs. Comparing the original and refreshed JARs found one changed entry, `assets/eventboundaries/icon.png`. All 19 other entries had identical contents, including the Java classes. The dedicated-server results below cover the original JAR.
 
 ## Reproduce
 
