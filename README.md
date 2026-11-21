@@ -1,6 +1,6 @@
 # Event Boundaries
 
-<img src="curseforge/logo.png" alt="Event Area Lock. A red no-entry sign hangs over a wooden gate." width="112">
+<img src="curseforge/logo.png" alt="Event Areas, with a red no-entry sign over a wooden gate" width="112">
 
 Temporary, invisible movement barriers for staff-run events. Each boundary is a circle in one dimension. An optional height limit turns it into a finite cylinder for a room or floor. Movement uses the player's position at their feet and counts the surface as inside.
 

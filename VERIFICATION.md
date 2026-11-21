@@ -10,7 +10,7 @@ SHA-256 52346d68df2986424ba6ca8846d09cd129d35da141b439e564291eff367efdb5
 
 ## Project icon refresh
 
-The [current download checksum](downloads/SHA256SUMS.txt) records the refreshed JAR’s SHA-256, `ef57be3475563ec46e03473c0250d53351acd7d63b5ba0dde2b4417765c87979`. Two builds with Temurin 25.0.5+8 and Python 3.13.14 passed the Java suite and produced byte-identical JARs. Comparing the original and refreshed JARs found one changed entry, `assets/eventboundaries/icon.png`. All 19 other entries had identical contents, including the Java classes. The dedicated-server results below cover the original JAR.
+The [current download checksum](downloads/SHA256SUMS.txt) records the refreshed JAR’s SHA-256, `6063fc7e0ae750a66f81711d19e7dc318d8b7d00a08b99fb3c72f2472175bfc5`. Two builds with Temurin 25.0.5+8 and Python 3.13.14 passed the Java suite and produced byte-identical JARs. Comparing the original and refreshed JARs found one changed entry, `assets/eventboundaries/icon.png`. All 19 other entries had identical contents, including the Java classes. The dedicated-server results below cover the original JAR.
 
 ## Reproduce
 
