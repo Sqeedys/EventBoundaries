@@ -24,4 +24,6 @@ Use `/eventboundary` from the console or with staff permissions. Vanilla permiss
 
 ## Credits
 
+The project icon is an AI-generated illustration of a perimeter. The actual in-game boundaries are invisible.
+
 Created by Sqeedys. [More mods](https://sqeedys.com/mods) · [Sqeedys on YouTube](https://www.youtube.com/@Sqeedys)
